@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(31, 5, 5);
+}
+.container {
+    max-width: 1008px;
+}
+h3 {
+    margin:0;
+    color: rgb(221, 68, 29) ;
+}
+h1{
+    text-align: center;
+    color: blue;
+    text-shadow:0 0 3px red;
+}
+.infoDisplay {
+    margin-top: 10px;
+    font-size: large;
+    
+    justify-content: center;
+     padding-bottom: 15px; 
+     padding-top: 15px; 
+}
+
+.attempts, .score {
+    
+   /* background-color: white; */
+   padding:0px 1em 0px 1em;
+   text-align: center;
+}
+#attemptDigit, #scoreDigit {
+    color: white;
+}
+
+#gameBoard {
+    /* display: flex; */
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    flex-wrap: wrap;
+    /* grid-template-columns: auto auto auto auto; */
+     /* grid-gap: 5px;  */
+     justify-content: center; 
+    
+    
+}
+.imageWrapper {
+    border:3px solid black;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    background-color:silver;
+    background-image:
+    linear-gradient(to bottom right, red ,black)
+    
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+    visibility: hidden; 
+    display: block;
+    
+
+   
+    
+}
